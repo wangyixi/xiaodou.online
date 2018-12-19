@@ -19,7 +19,7 @@
 ### 说明
 
 - xiaodou_web 网站前端页面代码
-- xiaodu_web 网站后台页面代码
+- xiaodu_admin 网站后台页面代码
 
 ### 分工
 
