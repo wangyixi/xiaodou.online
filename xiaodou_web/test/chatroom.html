@@ -1,0 +1,143 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>小豆-客服聊天室</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/grayscale.min.css" rel="stylesheet">
+    <link href="css/chatroom.css" rel="stylesheet">
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/grayscale.min.js"></script>
+
+    <script src="js/chat1.js"></script>
+
+    <style>
+        body {
+            background: url("img/chatroom.jpg") no-repeat;
+            background-size: 100%;
+        }
+        
+        .chatroomask {
+            position: relative;
+            width: 100%;
+            height: auto;
+            background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.5)), color-stop(75%, rgba(22, 22, 22, 0.1)), to(#161616)), url("");
+            background: linear-gradient(to bottom, rgba(22, 22, 22, 1), rgba(22, 22, 22, 0.1)), url("");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-size: cover;
+        }
+    </style>
+    <style>
+        .visitor-name {
+            font-family: 'Varela Round';
+            height: 40px;
+            border: 0;
+            background-color: #ffffff7c;
+            margin-right: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .visitor-list {
+            font-family: 'Varela Round';
+            height: 400px;
+            margin-top: 15px;
+            border: 0;
+            background-color: #ffffff7c;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top chatroomask" id="mainNav">
+        <div class="container">
+            <img src="img/logo.png" style="height:56px; width:70px;padding-right:20px;padding-bottom:6px">
+            <a class="navbar-brand js-scroll-trigger" href="index.html">小豆-客服聊天室</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              Menu
+              <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="index.html">首页<br>Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="chat.html">和小豆对话<br>Chat</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="chatroom.html">客服聊天室<br>ChatRoom</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link js-scroll-trigger " href="aboutus.html ">关于我们<br>About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="projects" class="projects-section masthead " style="padding-top: 20px">
+        <div id="main" class="main" style="margin-left:350px">
+            <div class="row">
+                <div class="visitor-list col-md-4">
+                    <ul style="list-style: none;padding-left :0px;padding-top:20px">
+                        <li><img src="img/2.png " style="height:10%; "></li>
+                        <li><img src=" img/2.png " style="height:10% "></li>
+                        <li><img src="img/2.png " style="height:10% "></li>
+                        <li><img src="img/2.png " style="height:10%; "></li>
+                        <li><img src=" img/2.png " style="height:10% "></li>
+                        <li><img src="img/2.png " style="height:10% "></li>
+                        <li><img src="img/2.png " style="height:10%; "></li>
+                        <li><img src=" img/2.png " style="height:10% "></li>
+                        <li><img src="img/2.png " style="height:10% "></li>
+                    </ul>
+                </div>
+                <ul id="content" class="content col-md-7">
+                    <div class="visitor-name "><img src="img/1.png " style="height:30; margin: 5px 5px"></div>
+                    <li class="right text-style pos bubble plain ">
+                        Hello?
+                    </li>
+                    <div style="clear:both"></div>
+                    <li class="left text-style-left pos-left bubble-left plain ">
+                        Hi!
+                    </li>
+                    <div style="clear:both "></div>
+                </ul>
+            </div>
+            <input id="msg_input" class="msgInput" style="margin-left:220px"></input>
+            <button id="sendbtn" class="btn btn-primary ">发送</button>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-black small text-center text-white-50 ">
+        <div class="container ">
+            Copyright &copy; xiaodou.online 2018
+            <a href="http://www.miitbeian.gov.cn/ ">浙ICP备18045208号</a>
+        </div>
+    </footer>
+</body>
+
+
+</html>

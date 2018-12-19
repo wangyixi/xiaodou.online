@@ -1,0 +1,23 @@
+<!doctype html>
+　　<html>
+　　　　<head>
+　　　　　　<meta charset="utf-8">
+　　　　　　<title>请稍等</title>
+　　　　　　<script type="text/javascript">
+　　　　　　　　var time = 5; 
+　　　　　　　　function Redirect() {
+ 　　　　　　　　window.location = "login.html";
+　　　　　　　　}
+　　　　　　　　var i = 0;
+　　　　　　　　function dis() {
+ 　　　　　　　　document.all.s.innerHTML = "注册成功" + (time - i) + "秒后跳转到<a href=\"login.html\">登录</a>页面";
+ 　　　　　　　　i++;
+　　　　　　　　}
+　　　　　　　　setInterval('dis()', 1000); 
+　　　　　　　　setTimeout('Redirect()', time * 1000);
+　　　　　　</script>
+　　</head>
+　　<body>
+　　　　<span id="s"></span>
+　　</body>
+</html>

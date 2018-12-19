@@ -1,0 +1,101 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>小豆-智能问答机器人</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/grayscale.min.css" rel="stylesheet">
+    <link href="css/chat.css" rel="stylesheet">
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/grayscale.min.js"></script>
+    <script src="js/cookie.js"></script>
+    <script src="js/chatroom.js"></script>
+
+    <style>
+        body {
+            background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("img/chatroom.jpg") no-repeat;
+            background-size: cover;
+            background-color: #202020;
+            height: 100%;
+	}
+        
+        @media (max-width: 992px) {
+            .btn-min {
+                padding: 0.7rem 0.8rem;
+            }
+        }
+        
+        @media (max-width: 992px) {
+            .projects-section {
+                padding: 7rem 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container">
+            <img src="img/logo.png" style="height:56px; width:70px;padding-right:20px;padding-bottom:6px">
+            <a class="navbar-brand js-scroll-trigger" href="index.html">小豆-聊天室</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              Menu
+              <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="index.html">首页<br>Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="chat.html">与小豆对话<br>Chat</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="chatroom.html">客服聊天室<br>ChatRoom</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link js-scroll-trigger " href="aboutus.html ">关于我们<br>About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="projects" class="projects-section masthead " style="height:77.5%">
+        <div class="visitor-name"><img src="img/1.png " style="height:30; margin: 5px 5px">
+            <strong id="vname"></strong></div>
+        <div id="main" class="main">
+            <ul id="content" class="content">
+                <div style="clear:both "></div>
+                <li class="left text-style-left pos-left bubble-left plain ">
+                    欢迎来到小豆客服聊天室！
+                </li>
+                <div style="clear:both "></div>
+            </ul>
+            <input id="msg_input" class="msgInput"></input>
+            <button id="sendbtn" class="btn-min btn btn-primary">发送</button>
+        </div>
+    </section>
+</body>
+
+</html>

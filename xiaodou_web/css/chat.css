@@ -1,0 +1,150 @@
+    .main {
+        position: relative;
+        margin: 0px auto;
+        border: 0px solid steelblue;
+        width: 430px;
+        height: 400px;
+    }
+    
+    @media (max-width: 992px) {
+        .main {
+            width: 300px;
+        }
+    }
+    
+    .msgInput {
+        padding: 1rem 3rem;
+        font-family: 'Varela Round';
+        letter-spacing: 0px;
+        border: 0;
+        background-color: #ffffff;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    
+    @media (max-width: 992px) {
+        .msgInput {
+            width: 180px;
+            padding: 0.5rem 1.5rem;
+        }
+    }
+    
+    .sendbtn {
+        position: absolute;
+        width: 100px;
+        height: 50px;
+        bottom: 5px;
+        right: 10px;
+    }
+    
+    @media (max-width: 992px) {
+        .sendbtn {
+            width: 80px;
+            height: 10px;
+        }
+    }
+    
+    .content {
+        list-style: none;
+        width: 410px;
+        height: 360px;
+        margin: 5px auto;
+        border: 0px dotted #D1D3D6;
+        overflow-y: scroll;
+        padding: 10px;
+    }
+    
+    @media (max-width: 992px) {
+        .content {
+            width: 280px;
+        }
+    }
+    
+    .text-style {
+        margin-bottom: 10px;
+        text-align: right;
+    }
+    
+    .text-style-left {
+        margin-bottom: 10px;
+        text-align: left;
+    }
+    
+    .pos,
+    .pos-left {
+        margin: 0 10px;
+        display: inline-block;
+        position: relative;
+    }
+    
+    .pos:before {
+        content: "";
+        position: absolute;
+        top: 14px;
+        left: 100%;
+        border-top: 5px solid transparent;
+        border-left: 6px solid top;
+        background: #b2e281;
+        border-bottom: 5px solid transparent;
+    }
+    
+    .pos-left:before {
+        content: "";
+        position: absolute;
+        top: 14px;
+        right: 100%;
+        border-top: 5px solid transparent;
+        border-right: 6px solid #ffffff;
+        border-bottom: 5px solid transparent;
+    }
+    
+    .bubble {
+        text-align: right;
+        max-width: 400px;
+        min-height: 40px;
+        display: inline-block;
+        vertical-align: top;
+        background: top;
+        background: #b2e281;
+        border-radius: 3px;
+        margin-bottom: 20px;
+    }
+    
+    .bubble-left {
+        text-align: left;
+        max-width: 400px;
+        min-height: 40px;
+        display: inline-block;
+        vertical-align: top;
+        background: top;
+        background: #ffffff;
+        border-radius: 3px;
+        margin-bottom: 20px;
+    }
+    
+    .plain {
+        padding: 9px 13px;
+        font-size: 14px;
+    }
+    
+    .right {
+        float: right;
+        text-align: right;
+    }
+    
+    .left {
+        float: left;
+        text-align: left;
+    }
+    
+    .btn-clue {
+        position: fixed;
+        background-color: white;
+        border: 1px solid black;
+    }
+    
+    .visitor-name {
+        text-align: center;
+        /*   position: relative;*/
+        /*    margin:0px auto;     */
+    }
