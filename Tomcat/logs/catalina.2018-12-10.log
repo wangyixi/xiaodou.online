@@ -1,0 +1,47 @@
+10-Dec-2018 01:58:33.818 WARNING [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+10-Dec-2018 09:33:14.398 WARNING [Thread-22595] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/wechat/wtest.php on line 40]
+10-Dec-2018 09:33:14.721 WARNING [22850] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+10-Dec-2018 22:03:01.890 WARNING [Thread-22597] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/wechat/wtest.php on line 40]
+10-Dec-2018 22:03:03.080 WARNING [Thread-22597] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Traceback (most recent call last):]
+10-Dec-2018 22:03:03.080 WARNING [Thread-22597] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  File "wgetWeather.py", line 64, in <module>]
+10-Dec-2018 22:03:03.080 WARNING [Thread-22597] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [    getAllWeather()]
+10-Dec-2018 22:03:03.080 WARNING [Thread-22597] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  File "wgetWeather.py", line 37, in call]
+10-Dec-2018 22:03:03.080 WARNING [Thread-22597] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [    info = func()]
+10-Dec-2018 22:03:03.080 WARNING [Thread-22597] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  File "wgetWeather.py", line 51, in getAllWeather]
+10-Dec-2018 22:03:03.080 WARNING [Thread-22597] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [    city = sys.argv[1];]
+10-Dec-2018 22:03:03.080 WARNING [Thread-22597] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [IndexError: list index out of range]
+10-Dec-2018 22:03:03.085 WARNING [22854] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [9] lines on stderr
+10-Dec-2018 22:19:32.190 WARNING [Thread-22598] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/wechat/wtest.php on line 40]
+10-Dec-2018 22:19:32.368 WARNING [Thread-22598] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Traceback (most recent call last):]
+10-Dec-2018 22:19:32.368 WARNING [Thread-22598] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  File "wgetWeather.py", line 64, in <module>]
+10-Dec-2018 22:19:32.368 WARNING [Thread-22598] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [    getAllWeather()]
+10-Dec-2018 22:19:32.368 WARNING [Thread-22598] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  File "wgetWeather.py", line 37, in call]
+10-Dec-2018 22:19:32.368 WARNING [Thread-22598] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [    info = func()]
+10-Dec-2018 22:19:32.368 WARNING [Thread-22598] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  File "wgetWeather.py", line 51, in getAllWeather]
+10-Dec-2018 22:19:32.368 WARNING [Thread-22598] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [    city = sys.argv[1];]
+10-Dec-2018 22:19:32.368 WARNING [Thread-22598] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [IndexError: list index out of range]
+10-Dec-2018 22:19:32.373 WARNING [22856] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [9] lines on stderr
+10-Dec-2018 22:19:37.699 WARNING [Thread-22599] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/wechat/wtest.php on line 40]
+10-Dec-2018 22:20:37.848 WARNING [Thread-22599] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [Traceback (most recent call last):]
+10-Dec-2018 22:20:37.848 WARNING [Thread-22599] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  File "wgetWeather.py", line 64, in <module>]
+10-Dec-2018 22:20:37.848 WARNING [Thread-22599] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [    getAllWeather()]
+10-Dec-2018 22:20:37.848 WARNING [Thread-22599] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  File "wgetWeather.py", line 37, in call]
+10-Dec-2018 22:20:37.848 WARNING [Thread-22599] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [    info = func()]
+10-Dec-2018 22:20:37.848 WARNING [Thread-22599] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [  File "wgetWeather.py", line 51, in getAllWeather]
+10-Dec-2018 22:20:37.848 WARNING [Thread-22599] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [    city = sys.argv[1];]
+10-Dec-2018 22:20:37.848 WARNING [Thread-22599] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [IndexError: list index out of range]
+10-Dec-2018 22:20:37.859 WARNING [22857] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [9] lines on stderr
+10-Dec-2018 23:20:32.712 INFO [https-jsse-nio-443-exec-27] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+ java.lang.IllegalArgumentException: Invalid character found in the request target. The valid characters are defined in RFC 7230 and RFC 3986
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:479)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:684)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+

@@ -1,0 +1,43 @@
+<!--index.wxml-->
+
+<view class="container">
+  <view class="userinfo">
+    <text>正在和小豆对话</text>
+  </view>
+
+  <view class="news">
+    <scroll-view scroll-y="true" class="history" >
+      <block wx:for="{{contend}}" wx:key="">
+        <view>
+          <text class="time">{{item.time}}</text>
+        </view>
+        <block wx:if="{{item.is_right==1}}">
+          <view class="me_right">
+            <view class="page_row">
+              <text wx:if="{{!item.is_img}}" class="txt">{{item.new_con}}</text>
+              <image wx:if="{{item.is_img}}" class="img">{{item.new_con}}</image>
+              <view wx:if="{{!item.is_img}}" class="tri_right"></view>
+              <image wx:if="{{item.is_right==1}}" class="new_img" src="./dayday.jpg"></image>
+            </view>
+          </view>
+        </block>
+        <block wx:else>
+          <view class="dou_left">
+            <view class="page_row">
+              <image wx:if="{{item.is_right==0}}" class="new_img" src="./dayday.jpg"></image>
+              <view wx:if="{{!item.is_img}}" class="tri_left"></view>
+              <text wx:if="{{!item.is_img}}" class="txt">{{item.new_con}}</text>
+              <image wx:if="{{item.is_img}}" class="img">{{item.new_con}}</image>
+            </view>
+          </view>
+        </block>
+      </block>
+    </scroll-view>
+  </view>
+  
+  <view class="sendpart">
+    <input bindinput="getCon" class="inputpart"></input>
+    <button class="extra"></button>
+    <button class="send" catchtap="add"><text>发送</text></button>
+  </view>
+</view>

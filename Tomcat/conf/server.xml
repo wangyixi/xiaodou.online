@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Server port="8006" shutdown="SHUTDOWN">
+<Listener className="org.apache.catalina.core.JreMemoryLeakPreventionListener"/>
+<Listener className="org.apache.catalina.mbeans.GlobalResourcesLifecycleListener"/>
+<Listener className="org.apache.catalina.core.ThreadLocalLeakPreventionListener"/>
+<Listener className="org.apache.catalina.core.AprLifecycleListener"/>
+<GlobalNamingResources>
+<Resource name="UserDatabase" auth="Container"
+ type="org.apache.catalina.UserDatabase"
+ description="User database that can be updated and saved"
+ factory="org.apache.catalina.users.MemoryUserDatabaseFactory"
+ pathname="conf/tomcat-users.xml"/>
+</GlobalNamingResources>
+<Service name="Catalina">
+<!--<Connector port="443"
+ protocol="HTTP/1.1"
+ connectionTimeout="20000"
+ redirectPort="8443"
+ maxThreads="1000"
+ minSpareThreads="20"
+ acceptCount="1000"
+ maxHttpHeaderSize="65536"
+ debug="0"
+ disableUploadTimeout="true"
+ useBodyEncodingForURI="true"
+ enableLookups="false"
+ URIEncoding="UTF-8"/>-->
+<!--<Connector port="443"
+    protocol="HTTP/1.1"
+    SSLEnabled="true"
+    scheme="https"
+    secure="true"
+    keystoreFile="cert/1582766_www.xiaodou.online.pfx"
+    keystoreType="PKCS12"
+    keystorePass="zj3t6y38"
+    clientAuth="false"
+    SSLProtocol="TLSv1+TLSv1.1+TLSv1.2"
+    ciphers="TLS_RSA_WITH_AES_128_CBC_SHA,TLS_RSA_WITH_AES_256_CBC_SHA,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256,TLS_RSA_WITH_AES_128_CBC_SHA256,TLS_RSA_WITH_AES_256_CBC_SHA256"/>-->
+<Connector port="443"
+    protocol="org.apache.coyote.http11.Http11NioProtocol"
+    SSLEnabled="true"
+    scheme="https"
+    secure="true"
+    keystoreFile="/usr/local/tomcat/conf/cert/1582766_www.xiaodou.online.pfx"
+    keystoreType="PKCS12"
+    keystorePass="zj3t6y38"
+    clientAuth="false"
+    SSLProtocol="TLSv1+TLSv1.1+TLSv1.2"
+    ciphers="TLS_RSA_WITH_AES_128_CBC_SHA,TLS_RSA_WITH_AES_256_CBC_SHA,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256,TLS_RSA_WITH_AES_128_CBC_SHA256,TLS_RSA_WITH_AES_256_CBC_SHA256"/>
+<Connector port="80" protocol="HTTP/1.1"
+connectionTimeout="20000"
+redirectPort="443" />
+<Connector port="8080" protocol="HTTP/1.1" connectionTimeout="20000" redirectPort="443" />
+
+<Engine name="Catalina" defaultHost="localhost">
+<Realm className="org.apache.catalina.realm.LockOutRealm">
+<Realm className="org.apache.catalina.realm.UserDatabaseRealm"
+  resourceName="UserDatabase"/>
+</Realm>
+<Host name="localhost" appBase="/data/wwwroot/xiaodou_web" unpackWARs="true" autoDeploy="true">
+<Context path="" docBase="/data/wwwroot/xiaodou_web" debug="0" reloadable="false" crossContext="true"/>
+<Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs"
+prefix="localhost_access_log." suffix=".txt" pattern="%h %l %u %t &quot;%r&quot; %s %b" />
+</Host>
+</Engine>
+</Service>
+</Server>

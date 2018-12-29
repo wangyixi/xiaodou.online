@@ -1,0 +1,4 @@
+11-Dec-2018 00:56:03.818 WARNING [https-jsse-nio-443-exec-28] org.apache.tomcat.util.net.TLSClientHelloExtractor.<init> The ClientHello was not presented in a single TLS record so no SNI information could be extracted
+11-Dec-2018 02:04:25.782 WARNING [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+11-Dec-2018 07:03:42.097 WARNING [Thread-22605] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/wechat/wtest.php on line 40]
+11-Dec-2018 07:03:42.563 WARNING [22867] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr

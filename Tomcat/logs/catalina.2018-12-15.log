@@ -1,0 +1,634 @@
+15-Dec-2018 04:34:20.127 信息 [http-nio-8080-exec-7] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+ java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:428)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:684)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+15-Dec-2018 12:55:47.914 警告 [2724] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/userlog.php on line 3]
+15-Dec-2018 12:55:47.914 警告 [2724] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 12:56:49.937 警告 [Thread-2660] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/userreg.php on line 3]
+15-Dec-2018 12:56:49.944 警告 [2726] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 12:57:03.640 警告 [Thread-2661] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/userlog.php on line 3]
+15-Dec-2018 12:57:03.655 警告 [2727] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 12:57:09.374 警告 [Thread-2662] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 12:57:09.378 警告 [2728] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 12:57:14.374 警告 [Thread-2663] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 12:57:14.378 警告 [2729] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 12:57:19.373 警告 [Thread-2664] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 12:57:19.377 警告 [2730] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 12:57:24.373 警告 [Thread-2665] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 12:57:24.377 警告 [2731] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 12:57:26.885 警告 [Thread-2666] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msgsendp.php on line 3]
+15-Dec-2018 12:57:26.893 警告 [2732] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 12:57:29.373 警告 [Thread-2667] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 12:57:29.377 警告 [2733] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 12:57:34.374 警告 [Thread-2668] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 12:57:34.378 警告 [2734] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 12:57:39.373 警告 [Thread-2669] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 12:57:39.377 警告 [2735] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 17:49:39.812 警告 [Thread-2686] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/test.php on line 44]
+15-Dec-2018 17:49:40.386 警告 [2753] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 17:50:02.514 警告 [Thread-2688] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/test.php on line 44]
+15-Dec-2018 17:50:02.917 警告 [2755] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 17:58:50.913 警告 [Thread-2690] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/wechat/wtest.php on line 9]
+15-Dec-2018 17:58:51.235 警告 [2759] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 18:00:12.672 警告 [Thread-2695] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/userlog.php on line 3]
+15-Dec-2018 18:00:12.680 警告 [2765] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 18:00:18.359 警告 [Thread-2696] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 18:00:18.368 警告 [2766] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 18:00:23.358 警告 [Thread-2697] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 18:00:23.363 警告 [2767] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 18:00:28.362 警告 [Thread-2698] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 18:00:28.366 警告 [2768] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 18:00:33.358 警告 [Thread-2699] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 18:00:33.362 警告 [2769] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 18:00:38.361 警告 [Thread-2700] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 18:00:38.365 警告 [2770] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 18:00:43.362 警告 [Thread-2701] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 18:00:43.366 警告 [2771] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 18:00:48.356 警告 [Thread-2702] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 18:00:48.360 警告 [2772] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 18:00:55.530 警告 [Thread-2703] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 18:00:55.534 警告 [2773] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 18:11:58.479 警告 [Thread-2705] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/userlog.php on line 3]
+15-Dec-2018 18:11:58.483 警告 [2777] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 18:12:03.730 警告 [Thread-2706] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 18:12:03.734 警告 [2778] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 18:12:08.724 警告 [Thread-2707] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 18:12:08.728 警告 [2779] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 18:12:13.725 警告 [Thread-2708] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 18:12:13.729 警告 [2780] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 18:12:18.156 警告 [Thread-2709] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msgsendp.php on line 3]
+15-Dec-2018 18:12:18.163 警告 [2781] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 18:12:18.726 警告 [Thread-2710] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 18:12:18.730 警告 [2782] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 18:12:24.321 警告 [Thread-2711] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 18:12:24.325 警告 [2783] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 18:12:29.030 警告 [Thread-2712] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 18:12:29.034 警告 [2784] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 18:12:29.350 警告 [Thread-2713] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 18:12:29.354 警告 [2785] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 18:12:34.030 警告 [Thread-2714] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 18:12:34.034 警告 [2786] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 18:12:34.588 警告 [Thread-2715] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 18:12:34.594 警告 [2787] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 20:44:05.895 警告 [Thread-2728] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/userlog.php on line 3]
+15-Dec-2018 20:44:05.905 警告 [2801] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 20:44:11.623 警告 [Thread-2729] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 20:44:11.627 警告 [2802] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 20:44:22.775 警告 [Thread-2730] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/chat.php on line 12]
+15-Dec-2018 20:44:27.733 警告 [2803] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 20:44:47.715 警告 [Thread-2731] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 20:44:47.719 警告 [2804] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 20:44:52.020 警告 [Thread-2732] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msgsendp.php on line 3]
+15-Dec-2018 20:44:52.026 警告 [2805] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 20:44:52.698 警告 [Thread-2733] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 20:44:52.702 警告 [2806] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 20:44:57.705 警告 [Thread-2734] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 20:44:57.709 警告 [2807] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 20:45:02.705 警告 [Thread-2735] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 20:45:02.709 警告 [2808] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 20:45:07.702 警告 [Thread-2736] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 20:45:07.705 警告 [2809] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 20:45:12.700 警告 [Thread-2737] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 20:45:12.704 警告 [2810] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 20:45:17.701 警告 [Thread-2738] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 20:45:17.705 警告 [2811] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 20:45:22.740 警告 [Thread-2739] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 20:45:22.744 警告 [2812] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 20:45:27.766 警告 [Thread-2740] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 20:45:27.770 警告 [2813] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 20:45:32.741 警告 [Thread-2741] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 20:45:32.745 警告 [2814] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 20:45:37.740 警告 [Thread-2742] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 20:45:37.744 警告 [2815] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 20:45:42.748 警告 [Thread-2743] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 20:45:42.752 警告 [2816] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 20:45:47.741 警告 [Thread-2744] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 20:45:47.745 警告 [2817] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 20:45:52.751 警告 [Thread-2745] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 20:45:52.754 警告 [2818] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 20:45:57.740 警告 [Thread-2746] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 20:45:57.743 警告 [2819] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 20:46:02.785 警告 [Thread-2747] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 20:46:02.789 警告 [2820] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 20:46:07.745 警告 [Thread-2748] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 20:46:07.749 警告 [2821] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 20:46:12.740 警告 [Thread-2749] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 20:46:12.744 警告 [2822] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 20:46:17.739 警告 [Thread-2750] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 20:46:17.743 警告 [2823] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:22:14.994 警告 [2825] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:22:14.994 警告 [2825] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:22:19.874 警告 [Thread-2752] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:22:19.878 警告 [2826] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:22:24.874 警告 [Thread-2753] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:22:24.878 警告 [2827] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:22:29.875 警告 [Thread-2754] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:22:29.879 警告 [2828] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:22:34.873 警告 [Thread-2755] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:22:34.877 警告 [2829] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:22:39.891 警告 [Thread-2756] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:22:39.897 警告 [2830] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:22:44.873 警告 [Thread-2757] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:22:44.877 警告 [2831] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:22:49.874 警告 [Thread-2758] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:22:49.878 警告 [2832] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:22:54.875 警告 [Thread-2759] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:22:54.878 警告 [2833] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:22:59.875 警告 [Thread-2760] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:22:59.879 警告 [2834] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:23:04.877 警告 [Thread-2761] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:23:04.880 警告 [2835] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:23:09.921 警告 [Thread-2762] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:23:09.925 警告 [2836] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:23:14.917 警告 [Thread-2763] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:23:14.921 警告 [2837] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:23:19.917 警告 [Thread-2764] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:23:19.921 警告 [2838] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:23:24.916 警告 [Thread-2765] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:23:24.920 警告 [2839] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:23:29.921 警告 [Thread-2766] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:23:29.925 警告 [2840] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:23:34.918 警告 [Thread-2767] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:23:34.922 警告 [2841] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:23:39.919 警告 [Thread-2768] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:23:39.923 警告 [2842] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:23:44.917 警告 [Thread-2769] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:23:44.920 警告 [2843] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:23:49.916 警告 [Thread-2770] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:23:49.919 警告 [2844] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:23:54.918 警告 [Thread-2771] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:23:54.922 警告 [2845] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:23:59.917 警告 [Thread-2772] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:23:59.921 警告 [2846] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:24:04.919 警告 [Thread-2773] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:24:04.923 警告 [2847] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:24:09.917 警告 [Thread-2774] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:24:09.921 警告 [2848] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:24:14.919 警告 [Thread-2775] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:24:14.924 警告 [2849] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:24:19.917 警告 [Thread-2776] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:24:19.921 警告 [2850] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:24:24.921 警告 [Thread-2777] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:24:24.925 警告 [2851] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:24:29.916 警告 [Thread-2778] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:24:29.920 警告 [2852] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:24:34.918 警告 [Thread-2779] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:24:34.922 警告 [2853] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:24:39.921 警告 [Thread-2780] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:24:39.924 警告 [2854] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:24:44.917 警告 [Thread-2781] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:24:44.921 警告 [2855] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:24:49.916 警告 [Thread-2782] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:24:49.920 警告 [2856] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:24:54.917 警告 [Thread-2783] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:24:54.921 警告 [2857] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:24:59.918 警告 [Thread-2784] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:24:59.922 警告 [2858] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:25:04.916 警告 [Thread-2785] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:25:04.920 警告 [2859] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:25:09.917 警告 [Thread-2786] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:25:09.921 警告 [2860] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:25:14.918 警告 [Thread-2787] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:25:14.922 警告 [2861] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:25:19.917 警告 [Thread-2788] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:25:19.921 警告 [2862] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:25:24.916 警告 [Thread-2789] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:25:24.920 警告 [2863] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:25:29.916 警告 [Thread-2790] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:25:29.920 警告 [2864] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:25:34.916 警告 [Thread-2791] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:25:34.921 警告 [2865] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:25:39.916 警告 [Thread-2792] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:25:39.920 警告 [2866] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:25:44.917 警告 [Thread-2793] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:25:44.921 警告 [2867] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:25:49.917 警告 [Thread-2794] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:25:49.921 警告 [2868] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:25:54.917 警告 [Thread-2795] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:25:54.921 警告 [2869] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:25:59.918 警告 [Thread-2796] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:25:59.922 警告 [2870] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:26:04.918 警告 [Thread-2797] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:26:04.922 警告 [2871] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:26:09.917 警告 [Thread-2798] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:26:09.921 警告 [2872] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:26:14.920 警告 [Thread-2799] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:26:14.923 警告 [2873] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:26:19.919 警告 [Thread-2800] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:26:19.923 警告 [2874] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:26:24.924 警告 [Thread-2801] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:26:24.929 警告 [2875] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:26:29.920 警告 [Thread-2802] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:26:29.925 警告 [2876] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:26:34.919 警告 [Thread-2803] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:26:34.922 警告 [2877] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:26:39.916 警告 [Thread-2804] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:26:39.921 警告 [2878] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:26:44.916 警告 [Thread-2805] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:26:44.920 警告 [2879] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:26:49.917 警告 [Thread-2806] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:26:49.921 警告 [2880] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:26:54.919 警告 [Thread-2807] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:26:54.923 警告 [2881] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:26:59.916 警告 [Thread-2808] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:26:59.920 警告 [2882] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:27:04.919 警告 [Thread-2809] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:27:04.923 警告 [2883] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:27:09.916 警告 [Thread-2810] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:27:09.921 警告 [2884] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:27:14.917 警告 [Thread-2811] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:27:14.921 警告 [2885] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:27:19.916 警告 [Thread-2812] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:27:19.920 警告 [2886] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:27:24.914 警告 [Thread-2813] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:27:24.918 警告 [2887] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:27:29.917 警告 [Thread-2814] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:27:29.921 警告 [2888] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:27:34.916 警告 [Thread-2815] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:27:34.920 警告 [2889] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:27:39.916 警告 [Thread-2816] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:27:39.920 警告 [2890] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:27:44.916 警告 [Thread-2817] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:27:44.920 警告 [2891] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:27:49.915 警告 [Thread-2818] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:27:49.920 警告 [2892] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:27:54.916 警告 [Thread-2819] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:27:54.920 警告 [2893] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:27:59.915 警告 [Thread-2820] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:27:59.919 警告 [2894] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:28:04.916 警告 [Thread-2821] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:28:04.920 警告 [2895] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:28:09.917 警告 [Thread-2822] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:28:09.922 警告 [2896] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:28:14.918 警告 [Thread-2823] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:28:14.923 警告 [2897] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:28:19.917 警告 [Thread-2824] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:28:19.921 警告 [2898] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:28:24.915 警告 [Thread-2825] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:28:24.919 警告 [2899] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:28:29.915 警告 [Thread-2826] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:28:29.920 警告 [2900] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:28:34.916 警告 [Thread-2827] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:28:34.920 警告 [2901] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:28:39.929 警告 [Thread-2828] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:28:39.933 警告 [2902] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:28:44.916 警告 [Thread-2829] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:28:44.920 警告 [2903] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:28:49.916 警告 [Thread-2830] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:28:49.920 警告 [2904] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:28:54.915 警告 [Thread-2831] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:28:54.919 警告 [2905] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:28:59.919 警告 [Thread-2832] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:28:59.923 警告 [2906] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:29:04.917 警告 [Thread-2833] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:29:04.921 警告 [2907] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:29:09.926 警告 [Thread-2834] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:29:09.930 警告 [2908] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:29:14.915 警告 [Thread-2835] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:29:14.919 警告 [2909] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:29:19.922 警告 [Thread-2836] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:29:19.926 警告 [2910] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:29:24.948 警告 [Thread-2837] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:29:24.964 警告 [2911] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:29:29.919 警告 [Thread-2838] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:29:29.922 警告 [2912] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:29:34.914 警告 [Thread-2839] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:29:34.918 警告 [2913] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:29:39.916 警告 [Thread-2840] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:29:39.919 警告 [2914] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:29:44.918 警告 [Thread-2841] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:29:44.922 警告 [2915] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:29:49.917 警告 [Thread-2842] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:29:49.920 警告 [2916] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:29:54.915 警告 [Thread-2843] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:29:54.919 警告 [2917] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:29:59.915 警告 [Thread-2844] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:29:59.919 警告 [2918] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:30:04.920 警告 [Thread-2845] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:30:04.925 警告 [2919] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:30:09.918 警告 [Thread-2846] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:30:09.922 警告 [2920] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:30:14.916 警告 [Thread-2847] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:30:14.919 警告 [2921] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:30:19.914 警告 [Thread-2848] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:30:19.918 警告 [2922] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:30:24.916 警告 [Thread-2849] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:30:24.920 警告 [2923] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:30:29.915 警告 [Thread-2850] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:30:29.918 警告 [2924] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:30:35.149 警告 [Thread-2851] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:30:35.152 警告 [2925] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:30:39.915 警告 [Thread-2852] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:30:39.919 警告 [2926] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:30:44.915 警告 [Thread-2853] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:30:44.919 警告 [2927] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:30:49.915 警告 [Thread-2854] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:30:49.919 警告 [2928] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:30:54.915 警告 [Thread-2855] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:30:54.919 警告 [2929] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:30:59.915 警告 [Thread-2856] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:30:59.919 警告 [2930] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:31:04.916 警告 [Thread-2857] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:31:04.920 警告 [2931] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:31:09.914 警告 [Thread-2858] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:31:09.918 警告 [2932] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:31:14.918 警告 [Thread-2859] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:31:14.922 警告 [2933] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:31:19.914 警告 [Thread-2860] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:31:19.918 警告 [2934] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:31:24.916 警告 [Thread-2861] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:31:24.920 警告 [2935] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:31:29.915 警告 [Thread-2862] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:31:29.919 警告 [2936] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:31:34.916 警告 [Thread-2863] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:31:34.920 警告 [2937] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:31:39.915 警告 [Thread-2864] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:31:39.919 警告 [2938] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:31:44.917 警告 [Thread-2865] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:31:44.921 警告 [2939] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:31:49.914 警告 [Thread-2866] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:31:49.918 警告 [2940] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:31:54.915 警告 [Thread-2867] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:31:54.919 警告 [2941] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:31:59.916 警告 [Thread-2868] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:31:59.920 警告 [2942] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:32:04.915 警告 [Thread-2869] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:32:04.918 警告 [2943] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:32:09.924 警告 [Thread-2870] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:32:09.928 警告 [2944] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:32:14.914 警告 [Thread-2871] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:32:14.919 警告 [2945] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:32:19.915 警告 [Thread-2872] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:32:19.919 警告 [2946] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:32:24.920 警告 [Thread-2873] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:32:24.924 警告 [2947] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:32:29.914 警告 [Thread-2874] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:32:29.918 警告 [2948] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:32:34.914 警告 [Thread-2875] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:32:34.918 警告 [2949] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:32:39.916 警告 [Thread-2876] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:32:39.920 警告 [2950] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:32:44.914 警告 [Thread-2877] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:32:44.918 警告 [2951] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:32:49.914 警告 [Thread-2878] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:32:49.919 警告 [2952] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:32:54.913 警告 [Thread-2879] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:32:54.917 警告 [2953] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:32:59.946 警告 [Thread-2880] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:32:59.962 警告 [2954] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:33:04.922 警告 [Thread-2881] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:33:04.926 警告 [2955] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:33:09.919 警告 [Thread-2882] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:33:09.929 警告 [2956] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:33:14.915 警告 [Thread-2883] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:33:14.919 警告 [2957] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:33:19.915 警告 [Thread-2884] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:33:19.919 警告 [2958] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:33:24.914 警告 [Thread-2885] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:33:24.918 警告 [2959] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:33:29.915 警告 [Thread-2886] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:33:29.919 警告 [2960] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:33:34.915 警告 [Thread-2887] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:33:34.919 警告 [2961] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:33:39.921 警告 [Thread-2888] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:33:39.926 警告 [2962] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:33:44.914 警告 [Thread-2889] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:33:44.917 警告 [2963] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:33:49.914 警告 [Thread-2890] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:33:49.918 警告 [2964] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:33:54.914 警告 [Thread-2891] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:33:54.918 警告 [2965] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:33:59.914 警告 [Thread-2892] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:33:59.918 警告 [2966] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:34:04.914 警告 [Thread-2893] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:34:04.918 警告 [2967] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:34:09.914 警告 [Thread-2894] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:34:09.918 警告 [2968] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:34:14.914 警告 [Thread-2895] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:34:14.918 警告 [2969] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:34:19.915 警告 [Thread-2896] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:34:19.918 警告 [2970] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:34:24.914 警告 [Thread-2897] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:34:24.919 警告 [2971] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:34:29.914 警告 [Thread-2898] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:34:29.918 警告 [2972] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:34:34.914 警告 [Thread-2899] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:34:34.918 警告 [2973] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:34:39.913 警告 [Thread-2900] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:34:39.929 警告 [2974] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:34:44.913 警告 [Thread-2901] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:34:44.916 警告 [2975] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:34:49.914 警告 [Thread-2902] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:34:49.918 警告 [2976] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:34:54.914 警告 [Thread-2903] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:34:54.918 警告 [2977] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:34:59.914 警告 [Thread-2904] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:34:59.918 警告 [2978] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:35:04.914 警告 [Thread-2905] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:35:04.917 警告 [2979] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:35:09.913 警告 [Thread-2906] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:35:09.916 警告 [2980] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:35:14.914 警告 [Thread-2907] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:35:14.918 警告 [2981] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:35:19.914 警告 [Thread-2908] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:35:19.917 警告 [2982] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:35:24.913 警告 [Thread-2909] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:35:24.916 警告 [2983] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:35:29.913 警告 [Thread-2910] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:35:29.917 警告 [2984] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:35:34.913 警告 [Thread-2911] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:35:34.917 警告 [2985] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:35:39.923 警告 [Thread-2912] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:35:39.927 警告 [2986] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:35:44.913 警告 [Thread-2913] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:35:44.917 警告 [2987] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:35:49.914 警告 [Thread-2914] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:35:49.918 警告 [2988] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:35:54.915 警告 [Thread-2915] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:35:54.918 警告 [2989] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:35:59.913 警告 [Thread-2916] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:35:59.917 警告 [2990] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:36:04.915 警告 [Thread-2917] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:36:04.919 警告 [2991] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:36:09.915 警告 [Thread-2918] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:36:09.920 警告 [2992] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:36:14.912 警告 [Thread-2919] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:36:14.916 警告 [2993] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:36:19.915 警告 [Thread-2920] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:36:19.919 警告 [2994] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:36:24.913 警告 [Thread-2921] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:36:24.917 警告 [2995] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:36:29.912 警告 [Thread-2922] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:36:29.916 警告 [2996] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:36:34.915 警告 [Thread-2923] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:36:34.918 警告 [2997] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:36:39.913 警告 [Thread-2924] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:36:39.917 警告 [2998] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:36:44.915 警告 [Thread-2925] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:36:44.919 警告 [2999] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:36:49.914 警告 [Thread-2926] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:36:49.918 警告 [3000] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:36:54.911 警告 [Thread-2927] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:36:54.915 警告 [3001] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:36:59.912 警告 [Thread-2928] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:36:59.916 警告 [3002] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:37:04.915 警告 [Thread-2929] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:37:04.919 警告 [3003] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:37:09.913 警告 [Thread-2930] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:37:09.917 警告 [3004] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:37:14.918 警告 [Thread-2931] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:37:14.922 警告 [3005] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:37:19.914 警告 [Thread-2932] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:37:19.917 警告 [3006] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:37:24.920 警告 [Thread-2933] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:37:24.923 警告 [3007] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:37:29.915 警告 [Thread-2934] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:37:29.919 警告 [3008] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:37:34.913 警告 [Thread-2935] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:37:34.917 警告 [3009] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:37:39.913 警告 [Thread-2936] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:37:39.917 警告 [3010] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:37:44.914 警告 [Thread-2937] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:37:44.919 警告 [3011] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:37:49.913 警告 [Thread-2938] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:37:49.917 警告 [3012] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:37:54.913 警告 [Thread-2939] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:37:54.917 警告 [3013] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:37:59.914 警告 [Thread-2940] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:37:59.917 警告 [3014] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:38:04.914 警告 [Thread-2941] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:38:04.917 警告 [3015] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:38:09.915 警告 [Thread-2942] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:38:09.920 警告 [3016] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:38:14.912 警告 [Thread-2943] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:38:14.916 警告 [3017] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:38:19.915 警告 [Thread-2944] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:38:19.918 警告 [3018] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:38:24.914 警告 [Thread-2945] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:38:24.918 警告 [3019] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:38:29.912 警告 [Thread-2946] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:38:29.916 警告 [3020] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:38:34.914 警告 [Thread-2947] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:38:34.918 警告 [3021] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:38:39.913 警告 [Thread-2948] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:38:39.917 警告 [3022] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:38:44.915 警告 [Thread-2949] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:38:44.920 警告 [3023] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:38:49.912 警告 [Thread-2950] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:38:49.915 警告 [3024] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:38:54.952 警告 [Thread-2951] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:38:54.956 警告 [3025] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:38:59.913 警告 [Thread-2952] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:38:59.917 警告 [3026] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:39:04.912 警告 [Thread-2953] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:39:04.917 警告 [3027] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:39:09.912 警告 [Thread-2954] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:39:09.915 警告 [3028] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:39:14.912 警告 [Thread-2955] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:39:14.917 警告 [3029] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:39:19.911 警告 [Thread-2956] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:39:19.915 警告 [3030] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:39:24.913 警告 [Thread-2957] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:39:24.918 警告 [3031] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:39:29.910 警告 [Thread-2958] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:39:29.913 警告 [3032] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:39:34.911 警告 [Thread-2959] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:39:34.915 警告 [3033] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:39:39.916 警告 [Thread-2960] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:39:39.920 警告 [3034] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:39:44.912 警告 [Thread-2961] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:39:44.917 警告 [3035] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:39:49.914 警告 [Thread-2962] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:39:49.918 警告 [3036] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:39:54.911 警告 [Thread-2963] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:39:54.915 警告 [3037] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:39:59.912 警告 [Thread-2964] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:39:59.916 警告 [3038] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:40:04.911 警告 [Thread-2965] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:40:04.915 警告 [3039] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:40:09.917 警告 [Thread-2966] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:40:09.921 警告 [3040] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:40:14.920 警告 [Thread-2967] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:40:14.924 警告 [3041] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:40:19.913 警告 [Thread-2968] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:40:19.916 警告 [3042] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:40:24.912 警告 [Thread-2969] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:40:24.915 警告 [3043] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:40:29.910 警告 [Thread-2970] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:40:29.914 警告 [3044] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:40:34.912 警告 [Thread-2971] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:40:34.916 警告 [3045] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:40:39.911 警告 [Thread-2972] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:40:39.914 警告 [3046] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:40:44.912 警告 [Thread-2973] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:40:44.916 警告 [3047] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:40:49.912 警告 [Thread-2974] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:40:49.916 警告 [3048] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:40:54.911 警告 [Thread-2975] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:40:54.915 警告 [3049] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:40:59.911 警告 [Thread-2976] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:40:59.915 警告 [3050] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:41:04.911 警告 [Thread-2977] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:41:04.915 警告 [3051] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:41:09.913 警告 [Thread-2978] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:41:09.917 警告 [3052] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:41:14.911 警告 [Thread-2979] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:41:14.915 警告 [3053] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:41:19.910 警告 [Thread-2980] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:41:19.914 警告 [3054] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:41:24.911 警告 [Thread-2981] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:41:24.915 警告 [3055] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:41:29.912 警告 [Thread-2982] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:41:29.915 警告 [3056] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:41:34.912 警告 [Thread-2983] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:41:34.917 警告 [3057] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:41:39.911 警告 [Thread-2984] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:41:39.915 警告 [3058] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:41:44.912 警告 [Thread-2985] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:41:44.916 警告 [3059] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:41:49.910 警告 [Thread-2986] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:41:49.914 警告 [3060] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:41:54.914 警告 [Thread-2987] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:41:54.918 警告 [3061] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:41:59.913 警告 [Thread-2988] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:41:59.916 警告 [3062] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:42:04.913 警告 [Thread-2989] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:42:04.917 警告 [3063] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:42:09.910 警告 [Thread-2990] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:42:09.914 警告 [3064] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:42:14.910 警告 [Thread-2991] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:42:14.914 警告 [3065] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:42:19.910 警告 [Thread-2992] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:42:19.913 警告 [3066] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:42:24.910 警告 [Thread-2993] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:42:24.914 警告 [3067] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:42:29.911 警告 [Thread-2994] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:42:29.915 警告 [3068] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:42:34.911 警告 [Thread-2995] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:42:34.915 警告 [3069] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 21:42:39.911 警告 [Thread-2996] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/msggetp.php on line 2]
+15-Dec-2018 21:42:39.915 警告 [3070] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr
+15-Dec-2018 23:25:09.666 信息 [http-nio-80-exec-1] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+ java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:428)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:684)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+

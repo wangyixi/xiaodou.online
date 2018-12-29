@@ -1,0 +1,128 @@
+/**index.wxss**/
+page{height: 100%;}
+
+.userinfo{
+  height:140rpx;
+  width: 100%;
+  display: flex;
+}  
+
+.sendpart{
+  height: 120rpx;
+  width: 100%;
+  display: flex;
+  flex-direction:row;
+}
+
+.news{
+  width: 100%;
+  display: flex;
+}
+
+.history{
+  height: 100%;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.topbot{
+  height: 60%;
+  width: 165rpx;
+  margin-top: 25rpx;
+  text-align: center;
+  font-size: 15px;
+  line-height: 75rpx;
+}
+
+.txt {
+  border-radius: 5px;
+  background-color: #95d4ff;
+  padding: 15rpx 15rpx 15rpx 15rpx;
+  font-size: 15px;
+  word-break: break-all;
+  white-space:pre-wrap;
+  max-width: 500rpx;
+  line-height: 55rpx;
+  text-align: justify;
+}
+
+.txtl {
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 15rpx 15rpx 15rpx 15rpx;
+  font-size: 15px;
+  word-break: break-all;
+  white-space:pre-wrap;
+  max-width: 500rpx;
+  line-height: 60rpx;
+  text-align: justify;
+}
+
+.page_row{
+  display: flex;
+  width: 100%;
+}
+
+.tri_right{
+  top: 25rpx;
+  position: relative;
+  width: 0px;
+  height: 0px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: rgba(255,255,255,0)  rgba(255,255,255,0) rgba(255,255,255,0) #95d4ff;
+}
+
+.tri_left{
+  top: 25rpx;
+  position: relative;
+  width: 0px;
+  height: 0px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: rgba(255,255,255,0) #ffffff rgba(255,255,255,0) rgba(255,255,255,0);
+}
+
+.new_img {
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.me_right{
+  float: right;
+  right: 40rpx;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.dou_left{
+  width: 100%;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  float: left;
+  position: relative;
+  left: 40rpx;
+  text-align: center;
+}
+
+.send{
+  width:150rpx;
+  height: 80rpx;
+  text-align: center;
+  font-size: 13px;
+  line-height: 30px;
+  margin: 8px;
+}
+
+.inputpart{
+  border-radius: 7px;
+  height: 70rpx;
+  width: 600rpx;
+  background: #f8f8f8;
+  margin: 10px;
+}

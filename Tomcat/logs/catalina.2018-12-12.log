@@ -1,0 +1,20 @@
+12-Dec-2018 01:57:59.906 WARNING [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+12-Dec-2018 11:12:16.974 INFO [https-jsse-nio-443-exec-28] org.apache.coyote.AbstractProcessor.parseHost The host [] is not valid
+ Note: further occurrences of request parsing errors will be logged at DEBUG level.
+ java.lang.IllegalArgumentException
+	at org.apache.tomcat.util.http.parser.Host.parse(Host.java:73)
+	at org.apache.tomcat.util.http.parser.Host.parse(Host.java:40)
+	at org.apache.coyote.AbstractProcessor.parseHost(AbstractProcessor.java:286)
+	at org.apache.coyote.http11.Http11Processor.prepareRequest(Http11Processor.java:1203)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:776)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+12-Dec-2018 20:03:20.010 WARNING [Thread-22614] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog stderr line: [PHP Warning:  mysql_connect(): Headers and client library minor version mismatch. Headers:50556 Library:50637 in /data/wwwroot/xiaodou_web/WEBX/wechat/wtest.php on line 40]
+12-Dec-2018 20:03:21.345 WARNING [22878] org.apache.catalina.servlets.CGIServlet$CGIRunner.sendToLog Received [1] lines on stderr

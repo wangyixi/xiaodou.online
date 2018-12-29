@@ -1,0 +1,111 @@
+/**index.wxss**/
+page{height: 100%;}
+
+.userinfo{
+  position: absolute;
+  top: 0rpx;
+  flex:1;
+  width: 100%;
+  background: #aaaaff;
+}
+
+.sendpart{
+  flex:1;
+  width: 100%;
+  background: #aaaaff;
+  display: flex;
+  position: absolute;
+  bottom: 0rpx;
+  flex-direction:row;
+}
+
+.news{
+  flex: 7;
+  width: 100%;
+  background: #ffffff;
+  display: flex;
+}
+
+.history{
+  height: 100%;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.txt {
+  width: 380rpx;
+  border-radius: 5px;
+  background-color: #95d4ff;
+  padding: 0rpx 30rpx 0rpx 30rpx;
+  font-size: 15px;
+}
+
+.page_row{
+  display: flex;
+  flex-direction: row;
+}
+
+.tri_right{
+  top: 25rpx;
+  position: relative;
+  width: 0px;
+  height: 0px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #ffffff  #ffffff #ffffff #95d4ff;
+}
+
+.tri_left{
+  top: 25rpx;
+  position: relative;
+  width: 0px;
+  height: 0px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #ffffff #95d4ff #ffffff #ffffff ;
+}
+
+.new_img {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+}
+
+.me_right{
+  margin-top: 40rpx;
+  float: right;
+  position: relative;
+  right: 40rpx;
+  text-align: center;
+}
+
+.dou_left{
+  margin-top: 40rpx;
+  float: left;
+  position: relative;
+  left: 40rpx;
+  text-align: center;
+}
+
+.extra{
+  width:70rpx;
+  height: 70rpx;
+  margin-top: 10px;
+}
+
+.send{
+  width:120rpx;
+  height: 70rpx;
+  text-align: center;
+  font-size: 10px;
+  line-height: 25px;
+  margin: 10px;
+}
+
+.inputpart{
+  border-radius: 7px;
+  height: 70rpx;
+  width: 450rpx;
+  background: #ffffff;
+  margin: 10px;
+}
