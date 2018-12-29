@@ -20,8 +20,8 @@
 ### 说明
 
 - Databases:数据库文件夹
-  -xiaodoumsg.sql : 聊天室系统数据库
-  -xiaodouvistor.sql : 访客系统数据库
+  - xiaodoumsg.sql : 聊天室系统数据库
+  - xiaodouvistor.sql : 访客系统数据库
 - xiaodou_web : 网站前端文件夹,WEBX 和 WEB16 分别存放 php 后台和 java 后台
 - xiaodou_WeChatApplet : 微信小程序工程文件夹
 
