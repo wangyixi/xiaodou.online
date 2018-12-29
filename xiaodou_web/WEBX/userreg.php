@@ -17,11 +17,12 @@ if($res[1]!==null){
 else{
         $sql = "insert into users values(null,'$username','$psword',0,'$email') ";
         if(mysql_query($sql)){
-                echo 101;
+                echo 11;
         }
         else{
-                echo "请重试";
+                echo 41;
         }
 }
+mysql_close($link);
 ?>
 

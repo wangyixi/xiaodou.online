@@ -80,7 +80,7 @@ window.onload = function(){
                                 sendMsg();
                         }
                 }
-                setInterval("getMsg()",5000);
+                setInterval("getMsg()",4500);
 }
 
 

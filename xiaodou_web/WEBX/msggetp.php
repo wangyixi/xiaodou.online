@@ -11,5 +11,7 @@ while($rst = mysql_fetch_assoc($qry) ){
                 $info[] = $rst;
 }
 echo json_encode($info);
+mysql_close($link);
 ?>
+
 

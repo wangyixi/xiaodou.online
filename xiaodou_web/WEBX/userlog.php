@@ -19,10 +19,10 @@ if($res1[1]!=null){
 	if($res1[2]==$psword){	
 	     $sql = "update users set state=1 where id=$res1[0] ";
              mysql_query($sql);
-		echo $res1[1];
+	     echo $res1[1];
         }
 	else{
-		echo 101;
+		echo 41;
 	}
 }
 else if($res2[3]!=null){
@@ -32,11 +32,12 @@ else if($res2[3]!=null){
                  echo $res2[1];
          }
           else{   
-                 echo 101;
+                 echo 41;
          }  
 
 }
 else{
-	echo 202;
+	echo 42;
 }
+mysql_close($link);
 ?>

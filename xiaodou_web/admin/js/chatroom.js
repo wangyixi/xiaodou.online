@@ -75,7 +75,20 @@ function sendMsg() {
                 msgsend.setRequestHeader("content-type","application/x-www-form-urlencoded");
                 msgsend.send(info);
 }
+function getCookie(name)
+{
+        var arr,reg=new RegExp("(^| )"+name+"=([^;]*)(;|$)");
+        if(arr=document.cookie.match(reg))
+        return unescape(arr[2]);
+        else
+        return null;
+}
+
 window.onload = function(){
+		var name = getCookie("name");
+		if(name !="admin"){
+			window.location.href="../login.html";
+		}
         	document.getElementById("vname").innerHTML = username;
                 var sendbtn = document.getElementById('sendbtn');
                 sendbtn.onclick = function() {

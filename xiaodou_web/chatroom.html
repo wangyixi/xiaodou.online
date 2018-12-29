@@ -39,7 +39,19 @@
             background-color: #202020;
             height: 100%;
 	}
-        
+        .logoff{
+   	 border: none;
+   	 color: white;
+   	 font-family:Arial;
+   	 padding: 5px 10px;
+    	 text-align: center;
+    	 text-decoration: none;
+    	 display: inline-block;
+    	 font-size: 6px;
+   	 margin: 4px 2px;
+   	 cursor: pointer;
+ 
+        }
         @media (max-width: 992px) {
             .btn-min {
                 padding: 0.7rem 0.8rem;
@@ -83,7 +95,9 @@
     </nav>
     <section id="projects" class="projects-section masthead " style="height:77.5%">
         <div class="visitor-name"><img src="img/1.png " style="height:30; margin: 5px 5px">
-            <strong id="vname"></strong></div>
+            <strong id="vname"></strong>
+	    <button class="logoff" id="logoff" onclick="logoff()">注销</button>
+	</div>
         <div id="main" class="main">
             <ul id="content" class="content">
                 <div style="clear:both "></div>

@@ -11,6 +11,7 @@ $sql1 = "insert into message values (null,'$user','$msg',now())";
 mysql_query($sql1);
 $mid = mysql_insert_id();
 mysql_close($link);
-echo $mid
+echo $mid;
+mysql_close($link);
 ?>
 

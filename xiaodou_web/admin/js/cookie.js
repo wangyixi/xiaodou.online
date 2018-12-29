@@ -66,12 +66,7 @@ function delCookie(name)
 				else{
 					console.log(r);
 					setCookiet("name",r,"s1800");
-					if(r=="admin"){
-					 window.location.href ="admin/index.html";
-					}
-					else{
-					 window.location.href ="chatroom.html";
-					}
+					window.location.href ="chatroom.html";
             			}
 		   }
 	    }
